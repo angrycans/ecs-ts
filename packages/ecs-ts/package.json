@@ -1,6 +1,6 @@
 {
-  "name": "@acans/ecs-ts",
-  "version": "0.0.1",
+  "name": "ecs-ts",
+  "version": "0.0.3",
   "description": "Entity Component System in Typescript",
   "main": "./lib/index.js",
   "types": "./lib/typings/index.d.ts",
