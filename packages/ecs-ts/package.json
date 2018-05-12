@@ -1,0 +1,27 @@
+{
+  "name": "@acans/ecs-ts",
+  "version": "0.0.1",
+  "description": "Entity Component System in Typescript",
+  "main": "./lib/index.js",
+  "types": "./lib/typings/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w",
+    "prepare": "tsc",
+    "clean": "rm -rf ./dist ./node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angrycans/ecs-ts.git"
+  },
+  "keywords": [
+    "ecs",
+    "typescript"
+  ],
+  "author": "angrycans@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angrycans/ecs-ts/issues"
+  },
+  "homepage": "https://github.com/angrycans/ecs-ts#readme"
+}
