@@ -7,11 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "tsc -w",
     "prepare": "tsc",
-    "clean": "rm -rf ./node_modules"
+    "watch:webpack": "webpack --watch",
+    "sync": "rsync -rv ./static/* ./dist/",
+    "clean": "rm -rf ./node_modules ./src/**/*.js ./src/**/*.js.map"
   },
   "dependencies": {
-    "ecs-ts": "^0.0.3"
+    "ecs-ts": "^0.0.3",
+    "source-map-loader": "^0.2.3",
+    "ts-loader": "^4.3.0",
+    "webpack": "^4.8.2"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack-cli": "^2.1.3"
+  }
 }
