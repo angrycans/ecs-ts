@@ -52,4 +52,5 @@ google-services.json
 # Freeline
 freeline.py
 freeline/
+node_modules
 freeline_project_description.json
